@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skynox</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f970d30c8a.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <section>
+    <div class="main">
+
+      <div class="image_box">
+
+        <div class="gallery">
+       <div class="slide_gallery">
+        <img src='https://images.unsplash.com/photo-1605774337664-7a846e9cdf17?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzE5MzUzNA&ixlib=rb-1.2.1&q=85' alt=''>
+       </div> 
+        
+       <div class="slide_gallery">
+        <img src='https://images.unsplash.com/photo-1616627974584-fe184eee3645?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzI5MTc1MQ&ixlib=rb-1.2.1&q=85' alt=''>
+       </div>
+
+       <div class="slide_gallery">
+        <img src='https://images.unsplash.com/photo-1563637329737-328724d1394d?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzI5MjQzMQ&ixlib=rb-1.2.1&q=85' alt=''>
+        </div>
+        
+        <div class="slide_gallery">
+         <img src='https://images.unsplash.com/photo-1616627974469-aeadf7890ed4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzE5MzY2Mw&ixlib=rb-1.2.1&q=85' alt=''>
+        </div>
+        
+        <div class="slide_gallery">
+         <img src='https://images.unsplash.com/photo-1596480823522-b9827f1fe2d2?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzI5MjYxMQ&ixlib=rb-1.2.1&q=85' alt=''>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src='https://images.unsplash.com/photo-1605774337664-7a846e9cdf17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzIwOTM2OQ&ixlib=rb-1.2.1&q=80&w=400'    onclick="currentSlide(1)" alt="The Woods">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src='https://images.unsplash.com/photo-1616627974584-fe184eee3645?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzI5MTc1MQ&ixlib=rb-1.2.1&q=80&w=400'  onclick="currentSlide(2)" alt="Cinque Terre">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src='https://images.unsplash.com/photo-1563637329737-328724d1394d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzI5MjQzMQ&ixlib=rb-1.2.1&q=80&w=400' onclick="currentSlide(3)" alt="Mountains and fjords"> 
+        </div>
+        <div class="column">
+          <img class="demo cursor" src='https://images.unsplash.com/photo-1616627974469-aeadf7890ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzIwOTY5NQ&ixlib=rb-1.2.1&q=80&w=400' onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src='https://images.unsplash.com/photo-1596480823522-b9827f1fe2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzI5MjYxMQ&ixlib=rb-1.2.1&q=80&w=400'  onclick="currentSlide(5)" alt="Nature and sunrise">
+        </div>    
+      </div>
+
+    </div>
+
+
+    <div class="products_description">
+       <h1>Upholstered Sofa</h1>
+       <h4>Kyara Uphoistered Standard Bed<br> by Zipcode Design</h4>
+       <p id="para">Anchor your living room in sophisticated style and impeccable comfort with a single addiction. Perfectly balancing wood accents with fabric uphoistery.</p>
+       <div class="ratings">
+        <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+        <p id="review"><span>(5.0)</span> review based on 250</p>
+        <a href="#" id="submit">Submit Review</a>
+      </div>
+
+      <p id="dollar">$567</p>
+      <p id="clock"><i class="far fa-clock"></i>&nbsp; Dispatched in 7 working days</p>
+      <div class="buttons">
+        <button type="button" id="cart">ADD TO CART</button>
+        <button type="button" id="wishlist">ADD TO WISHLIST</button>
+      </div>    
+    
+      </div>
+   
+</div>
+
+
+  <div class="footer">
+    <div class="secure">
+     <p class="secure_heading"><i class="fas fa-money-check-alt"></i> &nbsp;Secure payment</p>
+     <p class="secure_para">Don't worry, your money is<br> in secure places</p>
+    </div>
+    <div class="delivery">
+      <p class="secure_heading"><i class="fas fa-truck"></i> &nbsp;Fast & free delivery</p> 
+      <p class="secure_para">Home delivery $15. For free <br>delivery order over $250</p>
+     </div>
+     <div class="policy">
+      <p class="secure_heading "><i class="fas fa-box"></i> &nbsp;Return policy</p> 
+      <p class="secure_para" id="policy_para">No hassle return policy</p>
+     </div>
+
+  </div>
+  </section>
+
+
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("slide_gallery");
+    console.log(slides);
+    var dots = document.getElementsByClassName("demo");
+    console.log(dots);
+    var captionText = document.getElementById("caption");
+    console.log(captionText);
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    console.log(slides);
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+</script>
+        
+
+
+
+
+
+</body>
+</html>
